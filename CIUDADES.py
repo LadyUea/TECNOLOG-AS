@@ -7,7 +7,6 @@ num_semanas = int(input("Ingrese el número de semanas: "))
 ciudades = [input(f"Ingrese el nombre de la ciudad {i+1}: ") for i in range(num_ciudades)]
 dias_semana = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']
 semanas = [input(f"Ingrese el nombre de la semana {i+1}: ") for i in range(num_semanas)]
-
 # Crear matriz 3D de temperaturas aleatorias
 temperaturas = np.random.randint(10, 30, size=(num_ciudades, num_dias, num_semanas))
 
